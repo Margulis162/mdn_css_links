@@ -1,3 +1,4 @@
+/* general */
 *{
   margin:0px;
   padding:0px;
@@ -5,5 +6,32 @@
 }
 
 body{
- background-color: darkgrey;
+ background-color: rgb(39, 41, 56);
 }
+
+/* elements */
+
+/* classes */
+.container{
+    block-size:100vh;
+    inline-size: 900px;
+    margin-inline:auto;
+}
+
+.menu{
+    inline-size: 900px;
+    block-size:50px;
+    background-image: linear-gradient(to bottom,rgb(27, 27, 33) 10%, rgb(39, 41, 56) 60%, rgb(27, 27, 33) 95%, rgba(18, 52, 8, .4)  )
+}
+
+/* high specificity  */
+div.menu ul{
+    list-style:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    block-size: inherit;
+    align-items: center;
+
+}
+
