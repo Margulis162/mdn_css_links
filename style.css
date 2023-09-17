@@ -16,17 +16,25 @@ body{
     block-size:100vh;
     inline-size: 900px;
     margin-inline:auto;
-    background-color: grey;
-}
+    
+
+     
 
 .menu{
     inline-size: 900px;
     block-size:50px;
-    background-image: linear-gradient(to bottom,rgb(27, 27, 33) 10%, 20%, rgb(51, 51, 63)  40%, rgb(27, 27, 33)60%, 85%, rgb(51, 51, 63));
-  
-    box-shadow:0px 10px 20px rgba(27, 27, 33,  .5);
+    background-color: rgb(95, 92, 93);
+    border-inline: 10px solid rgb(19, 18, 18);
+    /* box-shadow:0px 10px 20px rgba(4, 4, 5, 0.5); */
 }
 
+.article{
+    inline-size: 900px;
+    background-color: grey;
+    border-inline: 10px solid rgb(148, 145, 145);
+    block-size:calc(100vh - 50px);
+}
+}
 /* high specificity  */
 div.menu ul{
     list-style:none;
