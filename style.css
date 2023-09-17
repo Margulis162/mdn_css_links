@@ -46,3 +46,35 @@ div.menu ul{
 
 }
 
+
+
+/* links */
+
+a {
+    
+    font-weight: 800;
+    letter-spacing: .04em;
+    text-decoration:none;
+}
+
+a:link{
+    color:rgb(19, 18, 18);
+}
+
+a:visited{
+    color:rgb(19, 18, 18);
+}
+
+a:focus{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+a:active{
+ background: grey;   
+}
