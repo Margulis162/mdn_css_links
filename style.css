@@ -95,3 +95,6 @@ a:active{
         inline-size:100vw;
     }
 }
+
+/* selects only external links  */
+/* a[href^="http"] */
