@@ -21,7 +21,7 @@ body{
      
 
 .menu{
-    inline-size: 900px;
+    inline-size: inherit;
     block-size:50px;
     background-color: rgb(95, 92, 93);
     border-inline: 10px solid rgb(19, 18, 18);
@@ -29,7 +29,7 @@ body{
 }
 
 .article{
-    inline-size: 900px;
+    inline-size: inherit;
     background-color: grey;
     border-inline: 10px solid rgb(148, 145, 145);
     block-size:calc(100vh - 50px);
@@ -77,4 +77,21 @@ a:hover{
 
 a:active{
  background: grey;   
+}
+
+@media  (max-width: 900px){
+    div.menu ul{
+        flex-direction:column;
+        
+    }
+
+    .container .menu{
+        block-size:150px;
+        border:none;
+        
+    }
+
+    .container{
+        inline-size:100vw;
+    }
 }
